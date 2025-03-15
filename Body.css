@@ -1,0 +1,111 @@
+.body {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.create-expenses {
+    flex: 0.4;
+}
+.expenses-and-savings-in-per{
+    margin-top: 4rem;
+}
+.expenses-and-savings-in-per>:nth-child(1){
+    border-left: 10px solid rgba(246, 53, 0, 0.884);
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+.expenses-and-savings-in-per>:nth-child(2){
+    border-left: 10px solid rgb(0, 192, 51);
+    padding-left: 0.5rem;
+}
+.expense-in-per{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+.left-sidebar {
+    color: white;
+    /* width: 50%; */
+    padding: 1rem;
+    border-radius: 24px;
+    background: #77A1D3;
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.income-and-expenses {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.total-balance>p{
+    margin: 0;
+}
+.income>p,.expenses>p{
+    margin: 0;
+}
+
+.history {
+    flex: 0.6;
+    padding: 1rem;
+    height: 70vh;
+    overflow-y: auto;
+   
+}
+.history::-webkit-scrollbar {
+    display: none;
+}
+
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 2px solid #555555;
+}
+
+.main-container {
+    background-color: aquamarine;
+}
+
+.history-in-col {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transacions-items {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0.3rem 1rem;
+    border-radius: 24px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+
+}
+ 
+.input-fileds{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

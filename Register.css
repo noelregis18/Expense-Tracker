@@ -1,0 +1,37 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 3rem;
+    width: 400px;
+}
+
+.app-name-logo>h1 {
+    margin-top: 0;
+}
+
+.input-box>form {
+    display: flex;
+    flex-direction: column;
+}
+.input-box>form>p{
+    margin-top: 2rem;
+}
+.input-box>form>p>span>a{
+text-decoration: none;
+}
+
+.name {
+    margin-top: 1rem !important;
+}
+
+.reg-btn{
+    margin-top: 2rem !important;
+}
+ 
